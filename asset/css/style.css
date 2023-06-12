@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;     
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+main{
+    height: 100vh;
+}
+
+main{
+    background: rgb(2,0,36);
+    background: linear-gradient(312deg, rgba(2,0,36,1) 0%, rgba(61,141,230,1) 100%);
+    position: relative;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 75%;
+    width: 30%;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container {
+    height: 100%;
+    padding: 10px;
+}
+
+.container .top{
+    height: 30%;
+    color: white;
+    font-size: 2em;
+    text-align: end;
+}
+
+.container .bottom{
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+
+}
+
+.bottom .digit-btn{
+
+    border-radius: 10px;
+    background-color: gray;
+    font-size: 2em;
+    color: skyblue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bottom .digit-btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
